@@ -1,5 +1,5 @@
 # This module contains all constant values that are used throughout the project.
-# ie: display information, tile sizes, coordinates, game state names.
+# ie: display information, tile sizes, coordinates, game state names..
 
 
 # DISPLAY DATA
