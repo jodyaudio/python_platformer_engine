@@ -1,3 +1,5 @@
+# CREATED BY JODY BAILEY 5/20/2018
+
 import game_setup
 import controller
 import constants as c

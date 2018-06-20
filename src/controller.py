@@ -32,3 +32,4 @@ class Controller:
                 self.current_state = self.current_state.flip_state(self.current_state.next_state)
 
             # Render the display
+            self.current_state.render(self.display)

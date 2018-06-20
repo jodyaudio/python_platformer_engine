@@ -1,5 +1,5 @@
 # The setup module does the games initial setup right when the main file is executed.
-# Sets up display, clock, and sets up game states/scenes into a dictionary
+# Sets up display, clock, and sets up game states/scenes into a dictionary.
 
 import pygame
 import constants as c

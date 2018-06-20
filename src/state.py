@@ -7,9 +7,11 @@ class State:
     def update(self, dt):
         pass
 
-    def change_state(self, next_state):
+    def flip_state(self, next_state):
         self.next_state = next_state
 
     def cleanup(self):
         self.is_done = False
 
+    def render(self, display):
+        pass
