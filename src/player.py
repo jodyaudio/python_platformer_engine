@@ -1,6 +1,7 @@
 import pygame
 import constants as c
 import ultracolors as color
+import bounding_box
 
 
 class Player(pygame.sprite.Sprite):
@@ -16,6 +17,10 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.Surface(self.size)
         self.image.fill(color.BLUE)
         self.rect = self.image.get_rect()
+
+        # Setup bounding box (hurt box/collision box)
+        self.bbox_size = (self.size)
+        self.bbox = bounding_box.BoundingBox(self.bbox_size)
 
         # Setup velocity properties
         self.vel_x = 0
