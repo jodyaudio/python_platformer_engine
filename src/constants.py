@@ -51,4 +51,10 @@ STATE_LIST = [SPLASH_SCREEN,
               LEVEL,
               GAME_OVER]
 
+# DIRECTORY PATHS
+IMAGES_FOLDER = "../images/"
+FONTS_FOLDER = "../fonts/"
+MUSIC_FOLDER = "../music/"
+SOUNDS_FOLDER = "../sounds/"
 
+#
