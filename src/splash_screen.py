@@ -66,7 +66,7 @@ class SplashScreen(state.State):
 
     def fade_out(self):
         if self.fader.current_alpha == self.fader.max_alpha:
-            print("initiate main menu!")
+            pass
 
     def render(self, display):
         display.fill(color.BLACK)
